@@ -8,6 +8,7 @@
  int val;
  char val1;
 };
+%token <val> num
 %token <val> ID
 %token '\n' '+'
 %type <val> S E
